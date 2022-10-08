@@ -1,6 +1,6 @@
 {
   "homepage": "https://SamarthHChinivar.github.io/todo-react",
-  "name": "todos-list",
+  "name": "todo-list",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
