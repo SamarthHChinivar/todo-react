@@ -17,10 +17,12 @@ function App() {
 
   //Arrow function is used here
   const onDelete = (todo) => {
+    if(window.confirm("Do you want to delete this todo ?")) {
     setTodos(todos.filter((e) => {
       return e !== todo;
     }));
     localStorage.setItem("todos",JSON.stringify(todos));
+    }
   }
 
   const addTodo = (title,desc) => {
