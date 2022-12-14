@@ -26,7 +26,7 @@ export const AddTodo = ({ addTodo }) => {
 
                 <div className="mb-3">
                     <label htmlFor="desc" className="form-label">Todo Description</label>
-                    <input type="text" value={desc} onChange={(e)=>{setDesc(e.target.value)}} className="form-control" id="desc"/>
+                    <input type="text" value={desc} onChange={(e)=>{setDesc(e.target.value)}} className="form-control" autoComplete="off" id="desc"/>
                 </div>
 
                 <button type="submit" className="btn btn-sm btn-success">Add Todo</button>
